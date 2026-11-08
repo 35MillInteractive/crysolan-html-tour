@@ -1,41 +1,24 @@
 # Crysolan Inventions: Frostwork Field Tour
 
-A self-contained static design and development tour, updated 7 November 2026.
+Design revision: 8 November 2026. Existing public tour: https://35millinteractive.github.io/crysolan-html-tour/
+Repository: https://github.com/35MillInteractive/crysolan-html-tour
 
-## View or host
+Static HTML and seven existing artwork files. No build, dependencies, credentials or API is required.
+This package updates design documentation, not game code or gameplay certification.
 
-Open `index.html` with the seven image files beside it. No build step, JavaScript package manager, CDN, account, API key, or external font is required.
+## Updated design
+- Mechanist book and Bench; sequential Sentinel, Relay and Needle feats at one schematic each.
+- Character knowledge persists; per-bench research travels with that bench and is lost with it.
+- Visitor crafting grants temporary purple recipe access fading within ten minutes, not research advancement.
+- Same-clan or solo-owner Relay networks with local coverage and highest connected Output.
+- Level 0 through 6: six Range/Output choices costing 100, 200, 300, 400, 500 and 1000 crystals (2500 total).
+- Separate passive 60-second machine cycle and manually operated one-minute network-wide recovery cooldown; manual recovery excludes Relays.
+- Damage bell, health upgrades, five-minute attack-free Relay regeneration delay and crystal-paid immediate repair.
+- Triple overlap, placement destruction and the proposed range-upgrade/multiple-overlap handling.
+- Bench and Relay interaction UI plus separate in-world displays and prototype flipbook limitations.
+- Preserved Sentinel/Needle/Bastion artwork and future turret variants, abilities, survival inventions and future PvP Relay.
+- Exact balance, edge rules and technical feasibility remain explicitly labeled.
 
-For iPad access, host this folder with a static host such as GitHub Pages. A repository alone is not the hosted page: static hosting must also be enabled, and the resulting HTTPS URL should be checked on the iPad. This package has not been pushed or published.
-
-The intended repository contents are only `index.html`, the seven images, this README, `VALIDATION.md`, and `.nojekyll`. Do not upload the surrounding project or local tool folders.
-
-## What is covered
-
-- The four-piece first-release scope: Sentinel, Artificer's Bench, Frostwatch Signal Relay, Frostwatch Needle.
-- Mechanist book and Bench progression, strict Sentinel -> Relay -> Needle schematic stages, and vanilla materials.
-- Relay levels through 3, local power coverage, authorized clan control and repair, connected networks, command deduplication, triple-coverage overload, and independent surviving networks.
-- Current Needle naming with the earlier Picket concepts and blockout preserved.
-- The Mechanist's proposed Focus Order, Overclock, Field Service, and future survival devices.
-- Bastion heavy-bolt and explosive-shell concepts, frost-thrower and Diablo II Wake of Fire-inspired fire-wave variants.
-- Clearly separated confirmed plans, future proposals, and verified local development status.
-
-## Status boundaries
-
-The latest Sentinel fixes were saved and tested in local two-player DevKit PIE on 7 November 2026, but that newer version was not cooked or uploaded. The earlier successful cook is historical. Relay networking, Bench integration, the new schematic chain, and permanent-turret UI remain planned. Relay and Bench blockout review was still in progress at this document's source check.
-
-This HTML update did not edit game assets, rerun DevKit, cook a mod, or publish anything. No unconfirmed recipe quantities, range values, upgrade costs, ability costs, or final balance values are asserted.
-
-## Artwork provenance
-
-Existing project artwork was reused without alteration. Concept labels and dimensions are not final gameplay specifications.
-
-- `sentinel.png`: existing Sentinel material/wear image from the original tour.
-- `picket-grok-v01.jpg`: original Grok Picket concept sheet, retained as an archive.
-- `picket-nano-banana-pro-v01.png`: original Tripo Studio / Nano Banana Pro alternate study.
-- `frostwatch-needle-blockout-v04.png`: existing Picket v04 Houdini crank-side render, now described under the Needle name.
-- `frostwatch-relay-concept.jpg`: approved current Relay reference supplied to the source project.
-- `artificers-bench-concept.jpg`: approved current Bench reference supplied to the source project.
-- `frostwork-bastion-concept.png`: archived project Bastion concept.
-
-The old `#picket` anchor remains available for existing links. The current section anchor is `#needle`.
+Only publish the eleven files in this folder. Do not publish surrounding scripts, backups, logs or QA artifacts.
+The original seven artwork files are preserved unchanged. The old #picket anchor is retained.
+See VALIDATION.md for checks and limits. Publication of this revision is a separate Kade handoff.
